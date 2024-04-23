@@ -10,7 +10,7 @@ from time import sleep
 LETTERS = ""
 
 
-os.system("cls")
+os.system('cls' if os.name == 'nt' else 'clear')
 with open("dict.json", "r") as read_file:
     data = json.load(read_file)
 dictionary = [i.upper() for i in data["words"]]

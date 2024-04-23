@@ -31,11 +31,12 @@ pangrams.sort(key=len)
 print(dictionary)
 print(pangrams)
 
-for n in pangrams:
-    sleep(1)
-    typewrite(n)
-    press('enter')
-for n in dictionary:
-    sleep(1)
-    typewrite(n)
-    press('enter')
+#sleep(4)
+#for n in pangrams:
+#    sleep(1)
+#    typewrite(n)
+#    press('enter')
+#for n in dictionary:
+#    sleep(1)
+#    typewrite(n)
+#    press('enter')

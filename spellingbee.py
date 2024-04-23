@@ -7,7 +7,7 @@ from pyautogui import typewrite, press
 from time import sleep
 
 
-LETTERS = "UTBNMAL"
+LETTERS = ""
 
 
 os.system("cls")
